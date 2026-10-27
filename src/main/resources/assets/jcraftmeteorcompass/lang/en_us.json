@@ -1,0 +1,7 @@
+{
+  "item.jcraftmeteorcompass.meteor_compass": "Meteorite Compass",
+  "message.jcraftmeteorcompass.found": "Meteorite ore located %s blocks away",
+  "message.jcraftmeteorcompass.none": "No meteorite with ore found nearby",
+  "message.jcraftmeteorcompass.retargeted": "Ore depleted - compass retargeted (%s blocks away)",
+  "message.jcraftmeteorcompass.depleted": "Ore depleted - no other meteorite with ore found nearby"
+}

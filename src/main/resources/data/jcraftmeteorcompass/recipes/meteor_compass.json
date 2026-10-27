@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " I ",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "I": { "item": "jcraft:stellar_iron_ingot" },
+    "C": { "item": "minecraft:compass" }
+  },
+  "result": { "item": "jcraftmeteorcompass:meteor_compass" }
+}

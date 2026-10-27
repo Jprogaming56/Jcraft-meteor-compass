@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "jcraftmeteorcompass"
+version = "1.0.0"
+displayName = "JCraft Meteorite Compass"
+description = '''
+A craftable compass that points to the nearest JCraft meteorite that still has iron ore.
+'''
+
+[[dependencies.jcraftmeteorcompass]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jcraftmeteorcompass]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jcraftmeteorcompass]]
+modId = "jcraft"
+mandatory = true
+versionRange = "[0.18,)"
+ordering = "AFTER"
+side = "BOTH"
