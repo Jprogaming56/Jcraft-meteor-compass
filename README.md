@@ -6,3 +6,5 @@ Right-click: finds the nearest meteorite that still contains Meteorite Iron Ore 
 If that ore is mined out, the compass retargets on its own (checked every 2 seconds).
 Search radius: about 8 spawn-grid rings (~2,000 blocks). It generates chunks while searching, so a search can cause a short stall.
 Build: push to GitHub (create .github/workflows/build.yml by hand if the uploader skipped it) and run the Actions build.
+
+Design: purple-faced compass with a gold rim; the needle is a stand arrow (gold arrowhead, feathered tail). 32 rotation frames live in assets/jcraftmeteorcompass/textures/item/.
