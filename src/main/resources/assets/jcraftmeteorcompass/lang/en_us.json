@@ -4,7 +4,11 @@
   "message.jcraftmeteorcompass.none": "No meteorite with ore found nearby",
   "message.jcraftmeteorcompass.retargeted": "Ore depleted - compass retargeted (%s blocks away)",
   "message.jcraftmeteorcompass.depleted": "Ore depleted - no other meteorite with ore found nearby",
-  "item.jcraftmeteorcompass.devils_palm_compass": "Devil's Palm Compass",
+  "item.jcraftmeteorcompass.devils_palm_compass": "Devil's Pillar Compass",
   "message.jcraftmeteorcompass.palm_found": "Devil's Palm located %s blocks away",
-  "message.jcraftmeteorcompass.palm_none": "No Devil's Palm biome found within range"
+  "message.jcraftmeteorcompass.palm_none": "No Devil's Palm biome found within range",
+  "message.jcraftmeteorcompass.pillar_found": "Devil's Pillar with Saint's sand located %s blocks away",
+  "message.jcraftmeteorcompass.pillar_none": "No Devil's Pillar with Saint's sand found nearby",
+  "message.jcraftmeteorcompass.pillar_retargeted": "Sand gone - compass retargeted (%s blocks away)",
+  "message.jcraftmeteorcompass.pillar_depleted": "Sand gone - no other Devil's Pillar with sand found nearby"
 }

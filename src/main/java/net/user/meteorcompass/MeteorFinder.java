@@ -103,7 +103,7 @@ final class MeteorFinder {
     }
 
     @Nullable
-    private static BlockPos nearestOreIn(ServerLevel level, BoundingBox bb, BlockPos origin, Block ore) {
+    static BlockPos nearestOreIn(ServerLevel level, BoundingBox bb, BlockPos origin, Block ore) {
         BlockPos best = null;
         double bestDist = Double.MAX_VALUE;
         BlockPos.MutableBlockPos pos = new BlockPos.MutableBlockPos();
