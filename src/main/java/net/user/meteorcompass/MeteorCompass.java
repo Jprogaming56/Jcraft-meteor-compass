@@ -3,7 +3,9 @@ package net.user.meteorcompass;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +26,7 @@ public class MeteorCompass {
     public MeteorCompass() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(bus);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CompassConfig.SPEC);
         bus.addListener(this::addToTab);
     }
 
