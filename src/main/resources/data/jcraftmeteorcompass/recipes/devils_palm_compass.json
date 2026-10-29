@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " I ",
+    "SCS",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "jcraft:stellar_iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:red_sand"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "jcraftmeteorcompass:devils_palm_compass"
+  }
+}

@@ -18,6 +18,9 @@ public class MeteorCompass {
     public static final RegistryObject<Item> METEOR_COMPASS =
             ITEMS.register("meteor_compass", () -> new MeteorCompassItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<Item> DEVILS_PALM_COMPASS =
+            ITEMS.register("devils_palm_compass", () -> new DevilsPalmCompassItem(new Item.Properties().stacksTo(1)));
+
     public MeteorCompass() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(bus);
@@ -27,6 +30,7 @@ public class MeteorCompass {
     private void addToTab(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(METEOR_COMPASS);
+            event.accept(DEVILS_PALM_COMPASS);
         }
     }
 }

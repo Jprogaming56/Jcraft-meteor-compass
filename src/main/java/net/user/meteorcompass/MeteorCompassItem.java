@@ -35,13 +35,13 @@ public class MeteorCompassItem extends Item {
         return GlobalPos.of(ResourceKey.create(Registries.DIMENSION, dim), BlockPos.of(tag.getLong(POS)));
     }
 
-    private static void setTarget(ItemStack stack, ServerLevel level, BlockPos pos) {
+    static void setTarget(ItemStack stack, ServerLevel level, BlockPos pos) {
         CompoundTag tag = stack.getOrCreateTag();
         tag.putLong(POS, pos.asLong());
         tag.putString(DIM, level.dimension().location().toString());
     }
 
-    private static void clearTarget(ItemStack stack) {
+    static void clearTarget(ItemStack stack) {
         CompoundTag tag = stack.getTag();
         if (tag != null) {
             tag.remove(POS);
@@ -49,7 +49,7 @@ public class MeteorCompassItem extends Item {
         }
     }
 
-    private static int distance(Player player, BlockPos pos) {
+    static int distance(Player player, BlockPos pos) {
         return (int) Math.sqrt(player.blockPosition().distSqr(pos));
     }
 

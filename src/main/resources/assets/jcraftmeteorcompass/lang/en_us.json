@@ -3,5 +3,8 @@
   "message.jcraftmeteorcompass.found": "Meteorite ore located %s blocks away",
   "message.jcraftmeteorcompass.none": "No meteorite with ore found nearby",
   "message.jcraftmeteorcompass.retargeted": "Ore depleted - compass retargeted (%s blocks away)",
-  "message.jcraftmeteorcompass.depleted": "Ore depleted - no other meteorite with ore found nearby"
+  "message.jcraftmeteorcompass.depleted": "Ore depleted - no other meteorite with ore found nearby",
+  "item.jcraftmeteorcompass.devils_palm_compass": "Devil's Palm Compass",
+  "message.jcraftmeteorcompass.palm_found": "Devil's Palm located %s blocks away",
+  "message.jcraftmeteorcompass.palm_none": "No Devil's Palm biome found within range"
 }

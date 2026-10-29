@@ -14,9 +14,15 @@ public final class ClientSetup {
 
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> ItemProperties.register(
-                MeteorCompass.METEOR_COMPASS.get(),
-                new ResourceLocation("angle"),
-                new CompassItemPropertyFunction((level, stack, entity) -> MeteorCompassItem.getTarget(stack))));
+        event.enqueueWork(() -> {
+            ItemProperties.register(
+                    MeteorCompass.METEOR_COMPASS.get(),
+                    new ResourceLocation("angle"),
+                    new CompassItemPropertyFunction((level, stack, entity) -> MeteorCompassItem.getTarget(stack)));
+            ItemProperties.register(
+                    MeteorCompass.DEVILS_PALM_COMPASS.get(),
+                    new ResourceLocation("angle"),
+                    new CompassItemPropertyFunction((level, stack, entity) -> MeteorCompassItem.getTarget(stack)));
+        });
     }
 }

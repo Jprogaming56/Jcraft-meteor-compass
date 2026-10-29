@@ -7,7 +7,7 @@ modId = "jcraftmeteorcompass"
 version = "1.0.0"
 displayName = "JCraft Meteorite Compass"
 description = '''
-A craftable compass that points to the nearest JCraft meteorite that still has iron ore.
+Craftable compasses: one for the nearest JCraft meteorite that still has iron ore, one for the Devil's Palm biome.
 '''
 
 [[dependencies.jcraftmeteorcompass]]
